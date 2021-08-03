@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+body{
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  background: url(../img/cisterna.png) no-repeat center center fixed;
+}
+
+.main-section{
+  margin: 0 auto;
+  margin-top: 130px;
+  padding: 0;
+}
+
+.modal-content{
+  background-color: #fff; /*#3b4652*/
+  opacity: .95;
+  padding: 0 18px;
+  box-shadow: 0px 0px 3px #f0fff0;
+}
+
+.form-group{
+  margin-bottom: 25px;
+}
+
+.form-group input {
+  height: 42px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.form-group::before{
+  font-family: 'Font Awesome\ 5 free';
+  content: "\f007";
+}
+h5.login-title{
+  color: #fff;
+}
